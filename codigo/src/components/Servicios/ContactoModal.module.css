@@ -1,0 +1,43 @@
+.modal {
+    box-shadow: 0 1px 4px #000000;
+    border-radius: 6px;
+    background-color: #5e454b;
+    border: 5px solid #d8b384;
+    padding: 1.5rem;
+    width: 40%;
+    z-index: 10;
+    position: fixed;
+    top: 250px;
+    left: calc(50% - 20%);
+    text-align: center;
+    font-size: 1.2em;
+}
+.texto {
+    color: #f3f0d7;
+    padding-bottom: 25px;
+}
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #d8b384;
+    border: 2px solid #f3f0d7;
+    color: #5e454b;
+    margin: 0 1rem;
+}
+
+.btn:hover {
+    background: #cee5d0;
+    color: #5e454b;
+    border: 3px solid #d8b384;
+    font-weight: bold;
+}
+/* Movil */
+@media only screen and (max-width: 767px) {
+    .modal {
+        width: 95%;
+        margin-left: 2.5%;
+        left: 0;
+    }
+}

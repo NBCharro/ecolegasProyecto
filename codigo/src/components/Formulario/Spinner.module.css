@@ -1,0 +1,39 @@
+.submitBtn {
+    float: right;
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+    display: block;
+    background-color: #ffffff;
+    border: 2px solid #5e454b;
+    color: #5e454b;
+    font-size: 1.1em;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.submitBtn img {
+    width: 45px;
+    height: 45px;
+    margin: 0px;
+    padding: 0px;
+    animation: mymove 3s infinite linear;
+}
+
+@keyframes mymove {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Movil */
+@media only screen and (max-width: 767px) {
+    .submitBtn {
+        width: 100%;
+        float: left;
+        border-radius: 0px;
+    }
+}

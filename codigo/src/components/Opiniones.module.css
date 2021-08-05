@@ -1,0 +1,56 @@
+section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+section {
+    margin-top: 50px;
+}
+.imgActiva {
+    border: 5px solid #d8b384;
+}
+.imagenes {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.opinion {
+    background-color: #d8b384;
+    border: 7px solid #5e454b;
+    border-bottom: 0px;
+    font-style: italic;
+    color: #5e454b;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 30px 35px;
+    border-radius: 60px;
+    box-shadow: 0 10px 20px #000000, 0 6px 6px #000000;
+    overflow: hidden;
+}
+.nombre {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+/* Mobile resolution */
+@media only screen and (max-width: 767px) {
+    .opinion {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        border-radius: 30px;
+    }
+    section img {
+        width: 95%;
+        height: auto;
+        border-radius: 50%;
+        margin-left: 2.5%;
+    }
+}

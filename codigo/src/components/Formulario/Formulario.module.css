@@ -1,0 +1,128 @@
+.contenedorForm {
+    background-color: #d8b384;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 550px;
+    padding: 15px 20px 0 20px;
+}
+.contenedorForm > h1 {
+    color: #5e454b;
+    font-size: 2em;
+}
+
+.mensajeRecibir {
+    font-size: 1.5em;
+    color: #5e454b;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+    color: #f3f0d7;
+    top: -10px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.estiloInput {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    position: relative;
+}
+
+.estiloInput label {
+    color: #f3f0d7;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.estiloInput.wide {
+    width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    background-color: #d8b384;
+    border: 3px solid #5e454b;
+    color: #f3f0d7;
+    font-size: 1.15em;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    border: 4px solid #f3f0d7;
+}
+
+.mensajeTexto textarea {
+    font-size: 1.15em;
+}
+
+.contenedorInput {
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submitBtn {
+    float: right;
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    display: block;
+    background-color: #f3f0d7;
+    border: 2px solid #5e454b;
+    color: #5e454b;
+    font-size: 1.15em;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.submitBtn:hover {
+    background: #5e454b;
+    color: #f3f0d7;
+    font-weight: bold;
+    font-size: 1.2em;
+    transform: translateY(1px);
+}
+
+/* 720p resolution */
+@media only screen and (max-width: 1280px) {
+    .mensajeRecibir {
+        font-size: 1.2em;
+    }
+}
+
+/* Movil */
+@media only screen and (max-width: 767px) {
+    .contenedorForm {
+        height: 650px;
+        border-radius: 0px;
+    }
+    .estiloInput {
+        width: 100%;
+    }
+    .submitBtn {
+        width: 100%;
+        float: none;
+        border-radius: 0px;
+    }
+    .mensajeRecibir {
+        font-size: 1.1em;
+    }
+}
