@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5e299c3.chunk.css",
+    "main.css": "/static/css/main.9aaa3383.chunk.css",
     "main.js": "/static/js/main.f3398a6b.chunk.js",
     "main.js.map": "/static/js/main.f3398a6b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e49f3edd.js",
@@ -8,7 +8,7 @@
     "static/js/2.d5a74471.chunk.js": "/static/js/2.d5a74471.chunk.js",
     "static/js/2.d5a74471.chunk.js.map": "/static/js/2.d5a74471.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d5e299c3.chunk.css.map": "/static/css/main.d5e299c3.chunk.css.map",
+    "static/css/main.9aaa3383.chunk.css.map": "/static/css/main.9aaa3383.chunk.css.map",
     "static/js/2.d5a74471.chunk.js.LICENSE.txt": "/static/js/2.d5a74471.chunk.js.LICENSE.txt",
     "static/media/asesoramiento.1d78da69.png": "/static/media/asesoramiento.1d78da69.png",
     "static/media/ecologismo.22f357da.png": "/static/media/ecologismo.22f357da.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.e49f3edd.js",
     "static/js/2.d5a74471.chunk.js",
-    "static/css/main.d5e299c3.chunk.css",
+    "static/css/main.9aaa3383.chunk.css",
     "static/js/main.f3398a6b.chunk.js"
   ]
 }
