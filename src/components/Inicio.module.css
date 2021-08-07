@@ -18,7 +18,7 @@
 .principal > button {
     width: 200px;
     height: 40px;
-    margin-top: 75px;
+    margin-top: 60px;
     background-color: #5e454b;
     border: 2px solid #cee5d0;
     color: #cee5d0;
@@ -26,9 +26,21 @@
     cursor: pointer;
 }
 .principal > h1 {
-    padding-top: 150px;
+    padding-top: 50px;
     font-size: 4em;
     letter-spacing: 4px;
+    text-shadow: 2px 2px #5e454b;
+}
+.github {
+    width: 200px;
+    height: 40px;
+    margin-top: 75px;
+    background-color: #5e454b;
+    border: 2px solid #cee5d0;
+    color: #cee5d0;
+    font-size: 1.6em;
+    cursor: pointer;
+    margin: 10px auto;
 }
 
 @media only screen and (max-width: 1024px) {

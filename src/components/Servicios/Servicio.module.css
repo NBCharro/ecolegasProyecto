@@ -39,7 +39,7 @@
 /* Movil */
 @media only screen and (max-width: 767px) {
     .modal {
-        font-size: 1em;
+        font-size: 0.9em;
         left: 0;
         top: 0;
         width: 95%;
@@ -47,6 +47,23 @@
         padding: 15px;
     }
     .modal p {
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+    .texto {
+        padding-bottom: 5px;
+    }
+}
+/* Extra small Movil */
+@media only screen and (max-width: 360px) {
+    .modal {
+        font-size: 0.8em;
+        margin: 5px 2.5% auto 2.5%;
+        padding: 5px;
+    }
+    .modal p {
+        font-size: 0.8em;
+    }
+    .texto {
+        padding-bottom: 5px;
     }
 }

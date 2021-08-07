@@ -90,7 +90,7 @@ textarea:focus {
     font-size: 1.15em;
     cursor: pointer;
     margin-right: 25px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .submitBtn:hover {

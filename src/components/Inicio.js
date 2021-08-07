@@ -13,9 +13,18 @@ function Inicio() {
         <div className={classes.principal}>
             <img src={logo} alt="Ecolegas" />
             <h1>AGRICULTURA ECOLÓGICA</h1>
-            <button onClick={saberMas} className={classes.bump}>
-                Saber más
-            </button>
+            <button onClick={saberMas}>Saber más</button>
+            <div
+                className={classes.github}
+                onClick={() =>
+                    window.open(
+                        'https://github.com/NBCharro/ecolegasProyecto',
+                        '_blank'
+                    )
+                }
+            >
+                Github
+            </div>
         </div>
     );
 }

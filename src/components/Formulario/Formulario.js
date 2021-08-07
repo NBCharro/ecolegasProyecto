@@ -12,12 +12,12 @@ const Formulario = (props) => {
     function sendEmail(event) {
         event.preventDefault();
         // Comprobacion que los datos sean correctos
-        if (telefonoInputRef.current.value.length < 9) {
-            props.openModal('Telefono');
-            return;
-        }
         if (nombreInputRef.current.value.replace(/ /g, '').length < 3) {
             props.openModal('Nombre');
+            return;
+        }
+        if (telefonoInputRef.current.value.length < 9) {
+            props.openModal('Telefono');
             return;
         }
         // Activar Spinner
@@ -67,7 +67,7 @@ const Formulario = (props) => {
                         <input
                             type="text"
                             name="from_name"
-                            required
+                            required="required"
                             ref={nombreInputRef}
                         />
                         <label>Nombre</label>
@@ -78,7 +78,7 @@ const Formulario = (props) => {
                         <input
                             type="email"
                             name="user_email"
-                            required
+                            required="required"
                             ref={emailInputRef}
                         />
                         <label>Email</label>
@@ -89,7 +89,7 @@ const Formulario = (props) => {
                         <input
                             type="number"
                             name="contact_number"
-                            required
+                            required="required"
                             ref={telefonoInputRef}
                         />
                         <label>Teléfono</label>
@@ -102,7 +102,7 @@ const Formulario = (props) => {
                         <textarea
                             name="message"
                             rows="5"
-                            required
+                            required="required"
                             ref={mensajeInputRef}
                         ></textarea>
                         <label>Mensaje</label>
