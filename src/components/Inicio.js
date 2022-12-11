@@ -4,29 +4,18 @@ import classes from './Inicio.module.css';
 import logo from '../resources/logo.png';
 
 function Inicio() {
-    const history = useHistory();
-    function saberMas() {
-        history.push('/ourservices');
-    }
+	const history = useHistory();
+	function saberMas() {
+		history.push('/ourservices');
+	}
 
-    return (
-        <div className={classes.principal}>
-            <img src={logo} alt="Ecolegas" />
-            <h1>AGRICULTURA ECOLÓGICA</h1>
-            <button onClick={saberMas}>Saber más</button>
-            <div
-                className={classes.github}
-                onClick={() =>
-                    window.open(
-                        'https://github.com/NBCharro/ecolegasProyecto',
-                        '_blank'
-                    )
-                }
-            >
-                Github
-            </div>
-        </div>
-    );
+	return (
+		<div className={classes.principal}>
+			<img src={logo} alt="Ecolegas" />
+			<h1>AGRICULTURA ECOLÓGICA</h1>
+			<button onClick={saberMas}>Saber más</button>
+		</div>
+	);
 }
 
 export default Inicio;
